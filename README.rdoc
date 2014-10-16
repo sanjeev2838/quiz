@@ -1,28 +1,13 @@
-== README
+https://github.com/doabit/semantic-ui-sass
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://docs.moodle.org/dev/Quiz_database_structure
 
-Things you may want to cover:
+http://bhupal.semicolondev.com/2013/04/quiz-systemdatabase-schema-design.html
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://ask.sqlservercentral.com/questions/91558/is-the-following-database-design-proper-for-this-q.html
+http://stackoverflow.com/questions/12103321/mysql-database-design-for-a-quiz-program
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+this one is useful :-
+  --> http://stackoverflow.com/questions/15312839/database-design-for-a-quiz-app
+  --> http://dba.stackexchange.com/questions/23976/db-design-for-a-quiz-with-variable-number-of-answer-choices-and-each-worth-diff
