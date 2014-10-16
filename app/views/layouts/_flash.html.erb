@@ -1,0 +1,9 @@
+<% if notice.present? %>
+    <p class="notice alert alert-success " id="flash_notice"><%= notice %></p>
+    <%= javascript_tag "setTimeout(function(){ $('#flash_notice').remove(); }, 5000);" %>
+<% end %>
+<% if alert.present? %>
+    <p class="alert alert-danger" id="flash_errors" ><%= alert %></p>
+    <%= javascript_tag "setTimeout(function(){ $('#flash_errors').remove();}, 5000);" %>
+<% end %>
+<% flash[:error] = flash[:errors] = flash[:notice] = nil %>

@@ -1,0 +1,12 @@
+<nav class="ui menu">
+  <%= link_to "Home", root_path ,class: "#{active_if_current(root_path)} item" %>
+     <% if user_signed_in?   %>
+          <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+    <% else %>
+          <%= link_to "Sign up", new_user_registration_path, class: "right floated text item #{active_if_current(new_user_registration_path)}"  %>
+          <%= link_to "Sign in", new_user_session_path, class: "right floated text item #{active_if_current(new_user_session_path)} "  %>
+    <% end %>
+</nav>
+
+
+
